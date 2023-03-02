@@ -11,8 +11,11 @@ title:  "첫 블로그예요 설레네요."
 
 
 
-![image-20230303001206815](C:\github_projects\98jungwoo-github-blog\98jungwoo.github.io\images\2023-03-02-first-posting\image-20230303001206815.png)
+image.png
 
+
+
+![image-20230303001642114](C:\github_projects\98jungwoo-github-blog\98jungwoo.github.io\images\2023-03-02-first-posting\image-20230303001642114.png)
 
 
 제가 깃허브 블로그를 시작하면서 도움을 받았던 사이트와 영상입니다. 
