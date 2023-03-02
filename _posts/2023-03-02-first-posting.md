@@ -9,6 +9,4 @@ title:  "첫 블로그에요 설레네요."
 
 
 
-
-
-![IMG_1979](C:\github_projects\98jungwoo-github-blog\98jungwoo.github.io\images\2023-03-02-first-posting\IMG_1979.JPEG)
+![000044](C:\github_projects\98jungwoo-github-blog\98jungwoo.github.io\images\2023-03-02-first-posting\000044.JPG)
