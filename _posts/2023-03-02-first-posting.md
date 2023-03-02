@@ -1,15 +1,18 @@
 ---
 layout: post
-title:  "첫 블로그에요 설레네요."
+title:  "첫 블로그예요 설레네요."
 ---
 
 # 앞으로 열심히 하겠습니다.
+
+
 
 꾸준히 하는게 중요하다고 하는데 잘 할 수 있겠죠?
 
 
 
-![000044](C:\github_projects\98jungwoo-github-blog\98jungwoo.github.io\images\2023-03-02-first-posting\000044.JPG)
+![image-20230303001206815](C:\github_projects\98jungwoo-github-blog\98jungwoo.github.io\images\2023-03-02-first-posting\image-20230303001206815.png)
+
 
 
 제가 깃허브 블로그를 시작하면서 도움을 받았던 사이트와 영상입니다. 
