@@ -12,7 +12,7 @@ title:  "첫 포스팅. java와 blog 입문"
 >
 >
 
-![기분좋아서 올리는 사진](https:///C:/github_projects/98jungwoo-github-blog/98jungwoo.github.io/images/2023-03-02-first-posting/image-20230303001642114.png)
+![기분좋아서 올리는 사진](https:/images/2023-03-02-first-posting/image-20230303001642114.png)
 
 >
 >
