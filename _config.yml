@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "우아개발study space"
+title                    : "우아의 study space"
 title_separator          : "|"
 subtitle                 : "for my development.."
 name                     : "Jungwoo Nam"
-description              : "우아개발study space"
+description              : "우아의 study space"
 url                      : "https://98jungwoo.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Jungwoo Nam"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "내가 공부하려고 만든 개발 blog"
+  bio              : "내가 공부하려고 만든 코딩 blog"
   location         : "South Korea"
   email            : "jungoo3179@naver.com"
   links:
