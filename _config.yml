@@ -104,11 +104,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Jungwoo Nam"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "내가 공부하려고 만든 개발 blog"
+  location         : "South Korea"
+  email            : "jungoo3179@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
