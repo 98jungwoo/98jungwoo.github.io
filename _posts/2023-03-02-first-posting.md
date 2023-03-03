@@ -31,7 +31,6 @@ title:  "첫 포스팅. java와 blog 입문"
 
 <br/>
 
-
 **3. 테디노트 - Jekyll 사용을 위한 마크다운(markdown)문법**
 
 [테디노트 - 마크다운 사용을 위한 블로그](https://teddylee777.github.io/jekyll/Jekyll-%EC%82%AC%EC%9A%A9%EC%9D%84-%EC%9C%84%ED%95%9C-markdown-%EB%AC%B8%EB%B2%95/)
