@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "첫 포스팅. java와 blog 입문"
+languageStudy: Java
+toc: true
 ---
 
 ![blog 첫 타이틀](https:/images/2023-03-02-first-posting/firsttitle.JPG)
