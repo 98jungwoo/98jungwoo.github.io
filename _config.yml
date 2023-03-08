@@ -267,6 +267,17 @@ jekyll-archives:
   permalinks:
     category: /categories/:name/
     tag: /tags/:name/
+    
+languageStudy-archives:
+  enabled:
+    - languageStudies
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /languageStudies/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression
