@@ -270,24 +270,7 @@ jekyll-archives:
     category: /categories/:name/
     tag: /tags/:name/
 
-카테고리2// 이렇게 했는대도 왜 안뜨지
- languageStudy-archives:
-  type: liquid
-  path: /languageStudies/
-tag_archive:
-  type: liquid
-  path: /tags/
-# https://github.com/jekyll/jekyll-archives   
-jekyll-archives:
-  enabled:
-    - languageStudies
-    - tags
-  layouts:
-    languageStudy: archive-taxonomy
-    tag: archive-taxonomy
-  permalinks:
-   languageStudy: /languageStudies/:name/
-    tag: /tags/:name/
+
 
 
 # HTML Compression
