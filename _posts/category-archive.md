@@ -1,7 +1,7 @@
 ---
-title:  언어
-layout: 언어
-permalink: /언어s/
+title:  "Category"
+layout: categories
+permalink: /categories/
 author_profile: true
 sidebar_main: true
 ---
