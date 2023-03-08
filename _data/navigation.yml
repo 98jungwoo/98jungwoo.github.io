@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "Category"
-    url: /categories/
+  # - title: "Category"
+  #   url: /categories/
   - title: "언어공부"
     url: /languageStudies/
   # - title: "About"
