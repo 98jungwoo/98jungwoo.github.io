@@ -1,7 +1,7 @@
 ---
 
 title:  category
-layout: catefories
+layout: categories
 permalink: /categories/
 author_profile: true
 sidebar+main: true
