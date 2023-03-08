@@ -2,6 +2,8 @@
 main:
   - title: "Category"
     url: /categories/
+  - title: "언어공부"
+    url: /languageStudies/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
