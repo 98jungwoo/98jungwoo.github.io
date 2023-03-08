@@ -283,10 +283,10 @@ jekyll-archives:
     - languageStudies
     - tags
   layouts:
-    category: archive-taxonomy
+    languageStudy: archive-taxonomy
     tag: archive-taxonomy
   permalinks:
-    category: /languageStudies/:name/
+   languageStudy: /languageStudies/:name/
     tag: /tags/:name/
 
 
