@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "첫 포스팅. java와 blog 입문"
-languageStudy: Java
+categories: Java
 toc: true
 ---
 
