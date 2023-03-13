@@ -99,9 +99,9 @@ ex) 모니터와 컴퓨터가 있을 때 모니터와 본체를 연결해주는 
 <br/>
 
 
-<인터페이스>
 
-'''
+
+
 interface InterfaceCreate {
 	
 public int NUMBER = 10;  // 상수 선언
@@ -109,13 +109,12 @@ public int NUMBER = 10;  // 상수 선언
 public void call(); // 추상메서드 선언
 
 }
-'''
+
 
 <br/>
 
-<구현클래스(구현체)>
 
-'''
+
 public class InterfaceImp implements InterfaceCreate {  // InterfaceCreate에 정의된 추상 메서드를 InterfaceImp에서 구현한다.
 
 	@Override
@@ -124,13 +123,11 @@ public class InterfaceImp implements InterfaceCreate {  // InterfaceCreate에 �
 		
 	}
 }
-'''
+
 
 <br/>
 
-<메인>
 
-'''
 public class InterfaceCall {
   public static void main(String[] args) {
 	
@@ -155,7 +152,7 @@ public class InterfaceCall {
 	
   }
 }
-'''
+
 
 <br/><br/>
 
