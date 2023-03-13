@@ -115,20 +115,25 @@ public void call(); // 추상메서드 선언
 
 
 
-public class InterfaceImp implements InterfaceCreate {  // InterfaceCreate에 정의된 추상 메서드를 InterfaceImp에서 구현한다.
+public class InterfaceImp implements InterfaceCreate { // InterfaceCreate에 정의된 추상 메서드를 InterfaceImp에서 구현한다.
 
 	@Override
+
 	public void call() {
+
 	System.out.println("인테페이스의 메서드를 상속받아 구현한다.");
 		
 	}
+    
 }
 
 
 <br/>
 
 
+
 public class InterfaceCall {
+
   public static void main(String[] args) {
 	
 
@@ -151,6 +156,7 @@ public class InterfaceCall {
 	interfaceCreate.call();
 	
   }
+
 }
 
 
