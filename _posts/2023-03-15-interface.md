@@ -1,0 +1,108 @@
+---
+layout: single
+title:  "[java] Interface(인터페이스)의 개념정리2"
+categories: Java-interface
+toc: true
+---
+<br/><br/>
+
+# 인터페이스 두번째 #
+
+<br/>
+
+## 기본용어의 간단 설명 ##
+
+익스텐드 :  확장
+
+임프리먼트 : 실행
+
+오버라이드 : 슈퍼가 가지고 있는 메서드 중 내가 원하는 메서드를 그대로 가져다가 쓰는 방법을 말한다.
+ 
+ <br/><br/>
+ 
+익스텐드에서 오버라이드 : 확장이라는 말은 그냥 범위를 넓힌다. 
+
+임프리먼트에서 오버라이드 : 실행이라는 의미를 가진다.
+
+<br/><br/>
+
+## 마크 와 마커 ##
+- 인터페이스는 객체가 할 수 있는 행위에 대해 무엇을 나타내 보이는 일정한 방식인 마크이다. 구체적인 행위는 마크를 붙이고 싶은 클래스가 정의해야 하며 마크가 의미하는 행위를 자신의 메서드로 구현한다.
+
+- 클래스명이 마크(표시)가 될 수 있다. (이 단어를 찾아가려고)
+
+- 임프리먼트에서 마크는  표지판처럼 알려주는 기능 (표지판처럼 그냥 알려만 주고 그곳에 갈지 말지는 내가 정하는 거다.)
+
+- 인터페이스명을 명확하게 해줘야해 그래야 마크 기능을 한다.(해당 단어들을 찾는다.) 근데 마크안에 아무런 내용이 없으면 마커다. 
+
+- 마커 = 안에 아무런 내용이 없다. 인터페이스에 아무런 메서드가 없다.(인터페이스의 구성요소를 선언하지 않은 인터페이스를 마커라고 한다.)
+
+
+<br/><br/>
+
+```ruby
+public interface A {
+
+	public int age = 0; // 원래의 형태는 public static final int age = 0 으로 스태틱과 파이널이 생략되었음.
+	public void call();
+	
+	public String go(); 
+	// 이런 반환타입은 잘 안쓴다. void만 쓴다.
+	// 인터페이스의 출력은 구현체가 한다. 
+	// 인터페이스일때 저장의 용도로만 추상메서드를 사용한다.
+	
+}
+```
+<br/>
+
+```ruby
+package min.java.test;
+
+// C라는 구현체가 만들어졌다. = Imp
+public class CImp implements A {
+
+	@Override
+	public void call() {
+		System.out.println("상속 받았다.");
+	}
+
+	@Override
+	public String go() {
+		return null;
+	}
+	
+	public void come() {
+		System.out.println("구현체의 메서드");
+	}
+
+}
+```
+
+<br/>
+
+```ruby
+package min.java.test;
+
+public class B {
+public static void main(String[] args) {
+	
+	CImp c = new CImp();
+	System.out.println(c);// CImp의 주소값 출력
+	
+	A a = new CImp(); 
+	// 업캐스팅 -> 다형성
+	// 인스턴스 a 에는 age, call, go가 담긴다. 
+	// cimp가 a가 되었다. 
+	// a에 있는 변수, 메서드만 사용가능하다.
+
+	System.out.println(a);  // CImp의 주소값(CImp가 a로 되었기 때문)
+	
+}
+}
+```
+<br/><br/>
+
+## @Override(오버라이드) ##
+@Override 라고 굳이 작성하는 이유는 슈퍼클래스로 다시 보내지 않기 위함이다.
+
+@Override 를 안쓰고 그냥 메서드만 딱 작성하면 내가 수정하고하고 슈퍼클래스에 알려주게된다. 반면에 @Override 써잇으면 다시 안보내줘도 되기때문에 속도가 빠르게된다.
