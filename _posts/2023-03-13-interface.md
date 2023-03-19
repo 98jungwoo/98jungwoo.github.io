@@ -27,7 +27,7 @@ toc: true
 이렇게 3가지를 배울때는 목적을 잊지 말아야합니다. 
 <br/>
 
-```ruby
+```java
 public class G extends F {
 
 	@Override
@@ -43,7 +43,7 @@ public class G extends F {
 <br/>
 
 
-```ruby
+```java
 public class C implements B{
 
 	@Override
@@ -102,7 +102,7 @@ ex) 모니터와 컴퓨터가 있을 때 모니터와 본체를 연결해주는 
 
 
 
-```ruby
+```java
 
 interface InterfaceCreate {
 	
@@ -117,7 +117,7 @@ public void call(); // 추상메서드 선언
 <br/>
 
 
-```ruby
+```java
 public class InterfaceImp implements InterfaceCreate { // InterfaceCreate에 정의된 추상 메서드를 InterfaceImp에서 구현한다.
 
 	@Override
@@ -134,7 +134,7 @@ public class InterfaceImp implements InterfaceCreate { // InterfaceCreate에 정
 <br/>
 
 
-```ruby
+```java
 public class InterfaceCall {
 
   public static void main(String[] args) {

@@ -16,7 +16,7 @@ toc: true
 - 인터페이스에서는 데이터베이스와 연동할 때 메서드를 연결하면 되지만 XML과 연동할때는 자바에서 멤버변수 메서드, 클래스 등등을 인식할 수 있게 설정해 줘야한다. 그렇게 설정해주는 것을 어노테이션이라고 하며, 어노테이션은 타켓을 가지고 있다. XML에게 내가 메서드야, 클래스야 라고 알려주는 것을 타켓이라고 한다.
 
 
-```ruby
+```java
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -39,8 +39,7 @@ public @interface MarkerAnno {
 ```
 
 
-```ruby
-package min.java.annotation;
+```java
 
 // 어노테이션 단독으로 설정한다.
 @MarkerAnno
@@ -94,7 +93,7 @@ XML에 대한 내용은 코드를 통해서 설명을 드리고 싶지만 이후
 앞 전에는 수정을 할때는 new연산자를 통해서 인스턴스로 선언해주고 수정을 햇습니다. 하지만 리플랙션은 인스턴스로 만드는 것이 아니라 수정하고 싶은 클래스 명을 지정해서 직접 수정하는 것입니다.
 
 
-```ruby
+```java
 public class ReflectionService {
 	private int age;
 
@@ -113,7 +112,7 @@ public class ReflectionService {
 ```
 
 
-```ruby
+```java
 
 import java.lang.reflect.*;
 

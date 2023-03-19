@@ -41,9 +41,9 @@ toc: true
 
 
 
-    '''
+```java
     "Hello java"
-    '''
+```
 
 <br/>
 이제 시작합니다.
