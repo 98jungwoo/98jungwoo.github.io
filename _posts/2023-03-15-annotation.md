@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[java] 어노테이션의 개념(XML, 리플랙션)"
+title:  "[Java] 어노테이션의 개념(XML, 리플랙션)"
 categories: Java-interface
 toc: true
 ---

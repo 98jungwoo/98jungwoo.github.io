@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[java] Interface(인터페이스)의 개념정리"
+title:  "[Java] Interface(인터페이스)의 개념정리"
 categories: Java-interface
 toc: true
 ---
