@@ -26,7 +26,7 @@ toc: true
 
 ![수행속도비교](https:/images/2023-03-23-알고리즘/수행속도%20비교.PNG) 
 
-<br/><br/>
+<br/>
 
 ```java
 import java.util.Arrays;
@@ -66,8 +66,6 @@ public class RunTimeCheck2 {
 
 # 알고리즘 종류 #
 알고리즘의에는 정렬방법과 탐색방법 두가지가 있습니다.
-
-<br/>
 
 ## 정렬 ##
 선택정렬, 버블정렬, 삽입정렬, 합병정렬, 퀵정렬
