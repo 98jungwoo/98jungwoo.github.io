@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "[Java] 개발의 기본순서는 (분석 - 설계 - 코딩)이다."
-categories: Java
+categories: Java-개발
 toc: true
 ---
 
