@@ -1,0 +1,73 @@
+---
+layout: single
+title:  "[Java] Map(TreeMap)"
+categories: Java
+toc: true
+---
+
+![멥](https:/images/2023-04-01-map/멥의%20내용%20정리.JPG)
+
+비교를 위해 Map포스팅에서 첨부하였던 표를 가져왔다.
+
+
+<br/><br/>
+데이터의 구성이 일렬이 아닌 특별한 형태를 띠는 비선형 구조로 데이터 간의 관계를 나타낸다.
+
+트리 기반으로 탐색이 지원되는 맵을 구현한다.
+
+이진 검색 트리를 사용하여 데이터를 저장하며, key-value 쌍이 정렬된 순서로 저장됩니다. 데이터의 추가, 삭제, 검색에 대해 더 많은 시간이 소요될 수 있습니다. 중복된 key를 허용하지 않으며, key나 value에 null을 허용합니다.
+
+- 노드라고 불리는 부분과 노드를 연결하는 가지로 구분이 된다.
+
+- 오름차순으로 정렬되며, 숫자> 알파벳 대문자 > 알파벳 소문자 > 한글 순으로 저장된다.
+
+- 부모 킷값과 비교해서 킷값이 낮은 것은 왼쪽 자식노드에 저장한다.
+
+- 부모 킷값과 비교해서 킷값이 높은 것은 오른쪽 자식노드에 저장한다.
+
+
+![컬랙션](https://images/2023-04-01-treemap/트리멥.JPG)
+
+```java
+public class SearchSpecificKeys {
+	public static void main(String[] args) {
+		
+		//키의 자연스러운 순서를 사용하여 비어있는 새 트리 멥의 인스턴스를 선언한다.
+		// integer 키 // string 값
+		TreeMap<Integer, String> treeMap = new TreeMap<Integer, String>();
+		
+		
+		treeMap.put(new Integer(87), "홍길동");
+		treeMap.put(new Integer(98), "전우치");
+		treeMap.put(new Integer(75), "임꺽정");
+		treeMap.put(new Integer(95), "조세형");
+
+		// 맵(지도) 요소로 반복하는 동안에만 유효하며 멥 요소의 키와 값을 호출하기 위해 선언한다.
+		Map.Entry<Integer, String> entry = null;
+		
+		// 제일 낮은 키의 요소를 반환하고 할당한다.
+		entry = treeMap.firstEntry()
+
+		// 멥의 요소에 해당하는 키와 값을 반환하고 출력한다.
+		System.out.println("가장 낮은 숫자 : " + entry.getKey() + " - " + entry.getValue());
+
+		// 제일 높은 키의 요소를 반환하고 할당한다.
+		entry = treeMap.lastEntry();
+		System.out.println("가장 높은 숫자 : " + entry.getKey() + " - " + entry.getValue());
+
+		entry = treeMap.lowerEntry(95);
+		System.out.println("95 아래 숫자 : " + entry.getKey() + " - " + entry.getValue());
+
+		entry = treeMap.higherEntry(95);
+		System.out.println("95 위의 숫자 : " + entry.getKey() + " - " + entry.getValue());
+
+		// 주어진 키와 같은 키가 있으면 해당 요소를 반환하고 없다면 주어진 키 바로 안래의 요소를 반환하고 할당한다.
+		entry = treeMap.floorEntry(96);
+		System.out.println("96이거나 바로 아래 숫자 : " + entry.getKey() + " - " + entry.getValue());
+
+		entry = treeMap.ceilingEntry(96);
+		System.out.println("96이거나 바로 위의 숫자 : " + entry.getKey() + " - " + entry.getValue());
+
+	}
+}
+```
