@@ -4,9 +4,10 @@ title:  "[Java] 게시판 개발 2"
 categories: Java-개발
 toc: true
 ---
+<br/><br/>
 
 ![게시판패키지,클래스](https:/images/2023-04-01-development/보드패키지클래스.JPG)
-
+<br/>
 
 ```java
 package min.board.command;
