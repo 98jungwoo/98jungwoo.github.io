@@ -46,14 +46,12 @@ WAS란 웹 서버와 웹 컨테이너의 결합으로 이루어진 소프트웨�
 <br/>
 
 ### 1. 설치 ###
+[톰켓설치사이트](https://tomcat.apache.org/download-80.cgi
+)
 
-https://tomcat.apache.org/download-80.cgi
+![톰켓9](https:/images/2023-04-23-tomcatSet.md/톰켓9.jpg)
 
-사진톰켓9
-![](https:/)
-
-사진톰켓64
-![](https:/)
+![톰켓64bit](https:/images/2023-04-23-tomcatSet.md/톰켓64bit.jpg)
 
 tomcat 9 -> 64-bit Windows 다운
 
