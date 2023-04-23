@@ -9,7 +9,6 @@ toc: true
 
 # 웹 애플리케이션 서버 #
 
-사진
 ![웹동작흐름](https:/images/2023-04-23-tomcatSet.md/웹동작흐름.jpg)
 
 요청된 페이지의 데이터베이스 등의 연동을 위해 요청하는 작업을 수행한다.
@@ -61,8 +60,8 @@ tomcat 9 -> 64-bit Windows 다운
 
 ▶ 압축해제해서 c드라이브에 넣어놓고,	
 
-사진
-![](https:/)
+
+![톰켓c드라이브](https:/images/2023-04-23-tomcatSet.md/톰켓c드라이브.jpg)
 <br/><br/>
 
 ### 2. 환경변수 설정 ###
@@ -87,8 +86,8 @@ zip 파일압축 해제하면 환경변수를 설정해줘야한다. 압축을 �
 
 ![환경변수1](https:/images/2023-04-23-tomcatSet.md/환경변수1.jpg)
 
-
 ![환경변수2](https:/images/2023-04-23-tomcatSet.md/환경변수2.jpg)
+
 C드라이브에 설치한걸로(톰켓9. ~~~) 폴더를 등록하기
 <br/>
 
@@ -100,14 +99,16 @@ C드라이브에 설치한걸로(톰켓9. ~~~) 폴더를 등록하기
 
 ▶ cmd에서 실행하면 자바 뭐가 없다고 뜸 (자바 홈도 등록해야함)
 
-사진
+
 ![환경변수4](https:/images/2023-04-23-tomcatSet.md/환경변수4.jpg)
 <br/>
 
 ▶ 내컴퓨터 – 속성 – 고급설정 – 고급 – 환경변수 – 시스템변수 – 새로만들기 
 
 사진
+
 ![환경변수5](https:/images/2023-04-23-tomcatSet.md/환경변수5.jpg)
+
 C드라이브 - 프로그램 파일 – java – jdk폴더 등록하기
 <br/>
 
@@ -115,6 +116,7 @@ C드라이브 - 프로그램 파일 – java – jdk폴더 등록하기
 
 사진
 ![환경변수6](https:/images/2023-04-23-tomcatSet.md/환경변수6.jpg)
+
 설치하고 cmd창 열어서 startup치면 이상한 언어나오면서 촤라락 되면 설치 된거임
 
 <br/><br/>
@@ -125,14 +127,15 @@ C드라이브 - 프로그램 파일 – java – jdk폴더 등록하기
 
  ![cmd명령어안치고실행](https:/images/2023-04-23-tomcatSet.md/cmd명령어안치고실행.jpg)
 
- 사진(관리자모드실행)
  ![cmd명령어안치고실행2](https:/images/2023-04-23-tomcatSet.md/cmd명령어안치고실행2.jpg)
+
  관리자 권한으로 실행하면 (startup)실행  or  (shutdown)종료 할수 있다.
 
  가끔 명령어해서 인식이 안될때가 있어서 이렇게 하는 방법도 있다고 알려주셨다. 
 <br/><br/>
 
- ### 이클립스에서 html 사용하기 ###
+
+### 이클립스에서 html 사용하기 ###
 
 이건 내가 이클립스를 사용하기 때문에 설정하는 방법을 적었다.
 
@@ -146,7 +149,6 @@ C드라이브 - 프로그램 파일 – java – jdk폴더 등록하기
 
 ▶ html_workspace 로 런치하기
 
- 사진
  ![이클립스에서html사용하기3](https:/images/2023-04-23-tomcatSet.md/이클립스에서html사용하기3.jpg)
  <br/>
 
@@ -163,4 +165,5 @@ C드라이브 - 프로그램 파일 – java – jdk폴더 등록하기
 ▶ 윈도우 – preferences – web – HTML Files – Editor – Syntax coloring
 
  ![글씨체변경](https:/images/2023-04-23-tomcatSet.md/글씨체변경.jpg)
+
  왜냐면 나중에 경로볼때 공백을 알아보기가 어려워서 해제 해야함
