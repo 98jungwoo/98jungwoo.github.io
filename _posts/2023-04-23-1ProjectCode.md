@@ -560,7 +560,7 @@ public class SiksinMemberSelect implements SiksinMemberAction {
 <br/>
 
 
-# control-Insert#
+# control-Insert #
 
 ```java
 package min.java.Siksin.member.control;
@@ -646,7 +646,7 @@ public class SiksinMemberInsert implements SiksinMemberAction {
 <br/>
 
 
-# control-Update#
+# control-Update #
 
 ```java
 package min.java.Siksin.member.control;
@@ -723,7 +723,7 @@ public class SiksinMemberUpdate implements SiksinMemberAction {
 <br/>
 
 
-# control-Delete#
+# control-Delete #
 
 ```java
 package min.java.Siksin.member.control;
@@ -785,7 +785,7 @@ public class SiksinMemberDelete implements SiksinMemberAction {
 
 
 
-# control-SelectDetail#
+# control-SelectDetail #
 
 ```java
 package min.java.Siksin.member.control;
