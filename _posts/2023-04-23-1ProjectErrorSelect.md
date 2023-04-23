@@ -7,7 +7,7 @@ toc: true
 
 <br/><br/>
 
-# ORA-00904 #
+# select에서 조회되지않는 오류 #
 
 ![error](https:/images/2023-04-23-1차프로젝트오류/select(사진)/샐랙트회원번호0번만뜬다.PNG)
 
