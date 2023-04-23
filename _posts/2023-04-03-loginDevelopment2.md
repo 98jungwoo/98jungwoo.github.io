@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[Java] 게시판 개발 2"
+title:  "[Java] 게시판 개발 2(MVC)"
 categories: Java-개발
 toc: true
 ---
