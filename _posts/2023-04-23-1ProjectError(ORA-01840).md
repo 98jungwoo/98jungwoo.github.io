@@ -9,7 +9,7 @@ toc: true
 
 # ORA-01840 #
 
-![error](https:/images/2023-04-23-1차프로젝트오류/Insert(사진)/ORA-01840.png)
+![error](https:/images/2023-04-23-1차프로젝트오류/inselet(사진)/ORA-01840.png)
 
 ORA-01840: input value not long enough 
 for date format
@@ -26,7 +26,7 @@ for date format
 
 # 해결 #
 
-19980421 or 980421 로 입력.
+19990101 or 990101 로 입력.
 
 <br/><br/>
 
