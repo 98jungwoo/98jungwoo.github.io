@@ -1,7 +1,7 @@
 ---
 layout: single
-title:  "[html] Tomcat(톰켓)정의와 세팅방법"
-categories: 프론트엔트
+title:  "[HTML] Tomcat(톰켓)정의와 세팅방법"
+categories: 프론트엔드
 toc: true
 ---
 
