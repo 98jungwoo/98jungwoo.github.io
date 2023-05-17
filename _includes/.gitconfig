@@ -1,0 +1,10 @@
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = 98jungwoo
+	email = jungwoo3179@naver.com
+[core]
+	editor = \"C:\\github_projects\\98jungwoo-github-blog\\Microsoft VS Code\\bin\\code\" --wait
