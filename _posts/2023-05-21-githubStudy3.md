@@ -6,6 +6,7 @@ toc: true
 ---
 
 
+
 일단은 뭘 해도 안되니가 깃허브를 읽어보던중에... 
 
 ![GitHubStudy16](https:/images/2023-05-21-githubStudy/githubStudy16.png)
@@ -50,6 +51,15 @@ toc: true
 
 
 ---------------------------------------------------------
+
+
+# 깃허브 수정 참고 사이트 
+
+[GitHub 깃헙 사용법! 차근차근 첫 커밋 해보기 (git add,commit,push)](https://sudo-minz.tistory.com/10)
+
+
+
+
 
 거의 일주일동안 시도를 해보면서 느낀건데 
 
