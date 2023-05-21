@@ -2,7 +2,6 @@
 layout: single
 title:  "[Java] 컬랙션(List와 Map의 차이)"
 categories: Java
-permalink: /month-archive/
 toc: true
 ---
 <br/><br/>

@@ -2,7 +2,6 @@
 layout: single
 title:  "[Java] 알고리즘과 자료구조"
 categories: Java
-permalink: /month-archive/
 toc: true
 ---
 <br/><br/>
