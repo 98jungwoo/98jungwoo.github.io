@@ -2,6 +2,8 @@
 main:
   - title: "Category"
     url: /categories/
+  - title: "Monthly"
+    url: /month-archive/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"

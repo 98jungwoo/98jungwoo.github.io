@@ -1,4 +1,15 @@
 ---
+layout: single
+title:  "[GitHub] 깃허브 contribution 기록 관련 해결중 2"
+categories: GitHub
+permalink: /month-archive/
+toc: true
+---
+
+
+<!--
+
+---
 layout: monthly
 permalink: /month-archive/
 title:  "[GitHub] 깃허브 contribution 기록 관련 해결중 2"
@@ -7,7 +18,6 @@ author_profile: true
 ---
 
 
-<!--
 ---
 <%-- layout: single
 title:  "[GitHub] 깃허브 contribution 기록 관련 해결중 2"
