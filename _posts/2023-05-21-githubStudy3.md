@@ -5,9 +5,9 @@ categories: GitHub
 toc: true
 ---
 
+<br><br>
 
-
-일단은 뭘 해도 안되니가 깃허브를 읽어보던중에... 
+일단은 뭘 해도 안되니까 깃허브를 읽어보던중에... 
 
 ![GitHubStudy16](https:/images/2023-05-21-githubStudy/githubStudy16.png)
 
@@ -15,8 +15,11 @@ toc: true
 
 ---------------------------------------------------------
 
+<br><br>
 
 # 브랜치 이름 변경
+
+<br>
 
 일단 로컬 컴퓨터에서 브랜치 이름을 master로 변경을 한후(한번 오타 났었음)
 
@@ -52,8 +55,11 @@ toc: true
 
 ---------------------------------------------------------
 
+<br><br>
 
 # 깃허브 수정 참고 사이트 
+
+<br>
 
 [GitHub 깃헙 사용법! 차근차근 첫 커밋 해보기 (git add,commit,push)](https://sudo-minz.tistory.com/10)
 
