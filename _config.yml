@@ -105,7 +105,8 @@ analytics:
 # Site Author
 author:
   name             : "98jungwoo"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  # avatar는 블로그 프로필자신임
+  avatar           : "/assets/avatar/000028.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "내가 공부하려고 만든 코딩 blog"
   location         : "South Korea"
   email            : "jungoo3179@naver.com"
