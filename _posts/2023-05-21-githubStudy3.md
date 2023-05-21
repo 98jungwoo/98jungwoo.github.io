@@ -3,6 +3,8 @@ layout: single
 title:  "[GitHub] 깃허브 contribution 기록 관련 해결중 3"
 categories: GitHub
 toc: true
+permalink: /month-archive/
+author_profile: true
 ---
 
 
