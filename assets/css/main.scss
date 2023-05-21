@@ -8,6 +8,8 @@ search: false
 // @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 // @import "minimal-mistakes"; // main partials
 
+// 원래는 import해서 수정 불가인데 본인이 수정하고자 주석으로 바꾸고 일부 변경함
+
 .page__content .notice,.page__content .notice--primary,.page__content .notice--info,.page__content .notice--warning,.page__content .notice--success,.page__content .notice--danger {
     color: #000
 }
@@ -567,7 +569,7 @@ audio:not([controls]) {
 }
 
 a {
-    color: #3b5998
+    color: #354e83
 }
 
 a:hover,a:active {
@@ -671,7 +673,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.25em
+    font-size: 1.10em
 }
 
 h3 {
@@ -740,7 +742,7 @@ blockquote cite:before {
 }
 
 a:visited {
-    color: #756199
+    color: #4467b4
 }
 
 a:hover {
