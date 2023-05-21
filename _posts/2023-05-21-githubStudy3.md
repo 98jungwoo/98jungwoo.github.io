@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: monthly
 title:  "[GitHub] 깃허브 contribution 기록 관련 해결중 3"
 categories: GitHub
 toc: true
