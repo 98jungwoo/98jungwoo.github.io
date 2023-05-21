@@ -6,6 +6,7 @@ permalink: /month-archive/
 toc: true
 ---
 
+<br><br>
 
 <!--
 
@@ -14,7 +15,7 @@ layout: monthly
 permalink: /month-archive/
 title:  "[GitHub] 깃허브 contribution 기록 관련 해결중 2"
 categories: GitHub
-author_profile: true
+author_profile: true  // author_profile: true'는 블로그의 사이드바에 저자 프로필을 표시하도록 설정합니다
 ---
 
 
@@ -22,7 +23,7 @@ author_profile: true
 <%-- layout: single
 title:  "[GitHub] 깃허브 contribution 기록 관련 해결중 2"
 categories: GitHub
-toc: true
+toc: true  // 'toc: true'는 블로그 게시물의 헤더(제목)에서 목차(Table of Contents)를 생성하도록 허용합니다. 
 ---
 -->
 

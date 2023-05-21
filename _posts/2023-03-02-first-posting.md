@@ -2,6 +2,7 @@
 layout: single
 title:  "첫 포스팅. java와 blog 입문"
 categories: Java
+permalink: /month-archive/
 toc: true
 ---
 

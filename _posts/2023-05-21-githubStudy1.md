@@ -2,6 +2,7 @@
 layout: single
 title:  "[GitHub] 깃허브 contribution 기록 관련 해결중 1"
 categories: GitHub
+permalink: /month-archive/
 toc: true
 ---
 
