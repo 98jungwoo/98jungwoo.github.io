@@ -1,9 +1,22 @@
 ---
-layout: single
+layout: monthly
+permalink: /month-archive/
+title:  "[GitHub] 깃허브 contribution 기록 관련 해결중 2"
+categories: GitHub
+author_profile: true
+toc: true
+---
+
+
+<!--
+---
+<%-- layout: single
 title:  "[GitHub] 깃허브 contribution 기록 관련 해결중 2"
 categories: GitHub
 toc: true
 ---
+-->
+
 
 지난번에는 브랜치를 새로 생성해서 연결해준 다음 contribution이 기록이 되는지를 확인해 봤지만 역시나 문제는 해결 되지 않았다.
 
