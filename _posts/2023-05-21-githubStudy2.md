@@ -59,17 +59,17 @@ git rebase -i <commit 해시값>
 
 일단 커밋 기록을 확인해보았다.
 
-![GitHubStudy10](https:/images/2023-05-21-githubStudy/GitHubStudy10.png)
+![GitHubStudy10](https:/images/2023-05-21-githubStudy/gitHubStudy10.png)
 
 
 log가 1개밖에 없다. 내가 main으로 바꾸고 커밋한 내용밖에 없다. 일단 이거라도 바꿔보자
 
-![GitHubStudy11](https:/images/2023-05-21-githubStudy/GitHubStudy11.png)
+![GitHubStudy11](https:/images/2023-05-21-githubStudy/gitHubStudy11.png)
 
 
 바꿀 필요가 없다고 한다...
 
-![GitHubStudy12](https:/images/2023-05-21-githubStudy/GitHubStudy12.png)
+![GitHubStudy12](https:/images/2023-05-21-githubStudy/gitHubStudy12.png)
 
 
 
@@ -87,7 +87,7 @@ log가 1개밖에 없다. 내가 main으로 바꾸고 커밋한 내용밖에 없
 
 근데
 
-![GitHubStudy13](https:/images/2023-05-21-githubStudy/GitHubStudy13.png)
+![GitHubStudy13](https:/images/2023-05-21-githubStudy/gitHubStudy13.png)
 
 
 현재 사용하는 브랜치는 main이고,   현재 작업중인 브랜치를 master로 변경하겟다고 했는데
@@ -98,7 +98,7 @@ master브랜치가 없다고 뜬다... 이게 무슨,,,,
 
 그래서 혹시 삭제한건가 싶어서 로컬과 리모트에 있는 모든 브랜치의 목록을 확인해보았다.
 
-![GitHubStudy14](https:/images/2023-05-21-githubStudy/GitHubStudy14.png)
+![GitHubStudy14](https:/images/2023-05-21-githubStudy/gitHubStudy14.png)
 
 그런데 master는 없고 main만 남아있다. 
 
@@ -108,7 +108,7 @@ master브랜치가 없다고 뜬다... 이게 무슨,,,,
 
 혹시 삭제 했는지 확인해보려고  로컬 저장소에서 발생한 모든 작업들의 로그를 확인하였는데. master에 대한 내용이 없다.
 
-![GitHubStudy15](https:/images/2023-05-21-githubStudy/GitHubStudy15.png)
+![GitHubStudy15](https:/images/2023-05-21-githubStudy/gitHubStudy15.png)
 
 
 
