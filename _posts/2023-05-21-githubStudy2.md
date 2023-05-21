@@ -2,12 +2,11 @@
 layout: monthly
 title:  "[GitHub] 깃허브 contribution 기록 관련 해결중 2"
 categories: GitHub
-permalink: /month-archive/
 toc: true
+permalink: /month-archive/
 author_profile: true
 ---
 
-<br><br>
 
 <!--
 
