@@ -26,7 +26,7 @@ toc: true
 
 # 새로운 브랜치 생성 
 
-![GitHubStudy1](https:/images/2023-05-21-githubStudy/GitHubStudy1.png)
+![GitHubStudy1](https:/images/2023-05-21-githubStudy/githubStudy1.png)
 
 git remote add origin 내 깃허브 주소
 
@@ -39,12 +39,12 @@ git remote add origin 내 깃허브 주소
  git config --global --add safe.directory c:/github_projects/98jungwoo-github-blog/git
 
 
-![GitHubStudy2](https:/images/2023-05-21-githubStudy/gitHubStudy2.png)
+![GitHubStudy2](https:/images/2023-05-21-githubStudy/githubStudy2.png)
 
 git : "추가"는 git 명령이 아닙니다. 'git --help' 참조
 
 
-![GitHubStudy3](https:/images/2023-05-21-githubStudy/gitHubStudy3.png)
+![GitHubStudy3](https:/images/2023-05-21-githubStudy/githubStudy3.png)
 
 
 아무것도 지정되지 않았고 추가된 것도 없습니다.
@@ -66,17 +66,17 @@ git add .을 작성하였더니 죽쭉쭉 나왔고
 
 ----------------------------------------------------------
 
-![GitHubStudy4](https:/images/2023-05-21-githubStudy/gitHubStudy4.png)
+![GitHubStudy4](https:/images/2023-05-21-githubStudy/githubStudy4.png)
 
 origin이 없다고 하니까 다시 생성해줘야한다 더라 
 
 그래서 
 
-![GitHubStudy5](https:/images/2023-05-21-githubStudy/gitHubStudy5.png)
+![GitHubStudy5](https:/images/2023-05-21-githubStudy/githubStudy5.png)
 
 git remote –v 명령어를 실행하여, 현재 로컬 리포지토리와 연결된 리모트 리포지토리가 없다고 해서 git add .을 해줬음 
 
-![GitHubStudy6](https:/images/2023-05-21-githubStudy/gitHubStudy6.png)
+![GitHubStudy6](https:/images/2023-05-21-githubStudy/githubStudy6.png)
 
 그러고 
 
@@ -97,7 +97,7 @@ on branch main nothing to commit, working tree clean = 분기 메인에서 커�
 
 countion objects 00% 가 점점 올라갓따.
 
-![GitHubStudy7](https:/images/2023-05-21-githubStudy/gitHubStudy7.png)
+![GitHubStudy7](https:/images/2023-05-21-githubStudy/githubStudy7.png)
 
 이렇게 새로운 브랜치가 생성되었다.
 
@@ -111,7 +111,7 @@ countion objects 00% 가 점점 올라갓따.
 
 일단 새로운 브랜치를 생성하였기 때문에 내가 사용하고자 하는 main브랜치를 디폴트값으로 설정해주고자 한다.
 
-![GitHubStudy8](https:/images/2023-05-21-githubStudy/gitHubStudy8.png)
+![GitHubStudy8](https:/images/2023-05-21-githubStudy/githubStudy8.png)
 
 이제 기존(maset) 브랜치에서 main브렌치로 변경하는 작업을 해준다. (기존 블로그 글을 새로운 main으로 이동시키는 작업이다.)
 
@@ -120,7 +120,7 @@ countion objects 00% 가 점점 올라갓따.
 
 기존 main에서 작성한 내용들을 master와 공유하기 위해서 내용을 병합하기로 한다. 
 
-![GitHubStudy9](https:/images/2023-05-21-githubStudy/gitHubStudy9.png)
+![GitHubStudy9](https:/images/2023-05-21-githubStudy/githubStudy9.png)
 
 이미 병합 되었다고 한다. 그럼 이제내용이 공유는 된다는 건데... 
 

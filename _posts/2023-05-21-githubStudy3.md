@@ -8,7 +8,7 @@ toc: true
 
 일단은 뭘 해도 안되니가 깃허브를 읽어보던중에... 
 
-![GitHubStudy16](https:/images/2023-05-21-githubStudy/gitHubStudy16.png)
+![GitHubStudy16](https:/images/2023-05-21-githubStudy/githubStudy16.png)
 
 깃허브에서 master 필요할수도 있다는 말 때문에 불안해서 일단 main 브랜치를 master로 변경을 해보도록 하자,,,
 
@@ -18,20 +18,20 @@ toc: true
 
 일단 로컬 컴퓨터에서 브랜치 이름을 master로 변경을 한후(한번 오타 났었음)
 
-![GitHubStudy17](https:/images/2023-05-21-githubStudy/gitHubStudy17.png)
+![GitHubStudy17](https:/images/2023-05-21-githubStudy/githubStudy17.png)
 
 
 
 
 깃허브에서도 디폴트 브랜치를 master로 변경해준다.
 
-![GitHubStudy18](https:/images/2023-05-21-githubStudy/gitHubStudy18.png)
+![GitHubStudy18](https:/images/2023-05-21-githubStudy/githubStudy18.png)
 
 
 
-![GitHubStudy19](https:/images/2023-05-21-githubStudy/gitHubStudy19.png)
+![GitHubStudy19](https:/images/2023-05-21-githubStudy/githubStudy19.png)
 
-![GitHubStudy20](https:/images/2023-05-21-githubStudy/gitHubStudy20.png)
+![GitHubStudy20](https:/images/2023-05-21-githubStudy/githubStudy20.png)
 
 
 이름을 변경하였다.
@@ -41,7 +41,7 @@ toc: true
 일단 원래 쓰던 저장소가 master이고 내가 새롭게 만든게 origin 두가지가 있다.
 
 
-![GitHubStudy21](https:/images/2023-05-21-githubStudy/gitHubStudy21.png)
+![GitHubStudy21](https:/images/2023-05-21-githubStudy/githubStudy21.png)
 
 
 
