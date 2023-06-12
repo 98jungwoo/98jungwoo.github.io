@@ -7,7 +7,7 @@ layout: archive
 {% assign projects_max = 0 %}
 {% for project in site.projects %}
   {% if project[1].size > projects_max %}
-    {% assign projects_max = category[1].size %}
+    {% assign projects_max = project[1].size %}
   {% endif %}
 {% endfor %}
 
