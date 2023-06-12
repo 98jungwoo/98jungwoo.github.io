@@ -6,7 +6,7 @@ layout: archive
 
 {% assign projects_max = 0 %}
 {% for project in site.projects %}
-  {% if project[1].size > projects_max %}
+  {% if project1].size > projects_max %}
     {% assign projects_max = project[1].size %}
   {% endif %}
 {% endfor %}
@@ -29,7 +29,7 @@ layout: archive
 {% for i in (1..projects_max) reversed %}
   {% for project in site.projects %}
     {% if project[1].size == i %}
-      <section id="{{ cproject[0] | slugify | downcase }}" class="taxonomy__section">
+      <section id="{{ project[0] | slugify | downcase }}" class="taxonomy__section">
         <h2 class="archive__subtitle">{{ project[0] }}</h2>
         <div class="entries-{{ entries_layout }}">
           {% for post in project.last %}
