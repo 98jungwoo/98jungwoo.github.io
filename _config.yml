@@ -262,17 +262,23 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+  project_archive:
+  type: liquid
+  path: /projects/
 # https://github.com/jekyll/jekyll-archives
 jekyll-archives:
   enabled:
     - categories
     - tags
+    - projects
   layouts:
     category: archive-taxonomy
     tag: archive-taxonomy
+    projects: archive-taxonomy
   permalinks:
     category: /categories/:name/
     tag: /tags/:name/
+    projects: /projects/:name/
 
 
 
