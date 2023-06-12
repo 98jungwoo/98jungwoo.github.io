@@ -1,0 +1,43 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% assign projects_max = 0 %}
+{% for project in site.projects %}
+  {% if project[1].size > projects_max %}
+    {% assign projects_max = category[1].size %}
+  {% endif %}
+{% endfor %}
+
+<ul class="taxonomy__index">
+  {% for i in (1..projects_max) reversed %}
+    {% for project in site.projects %}
+      {% if project[1].size == i %}
+        <li>
+          <a href="#{{ project[0] | slugify }}">
+            <strong>{{ project[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</ul>
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+{% for i in (1..projects_max) reversed %}
+  {% for project in site.projects %}
+    {% if project[1].size == i %}
+      <section id="{{ cproject[0] | slugify | downcase }}" class="taxonomy__section">
+        <h2 class="archive__subtitle">{{ project[0] }}</h2>
+        <div class="entries-{{ entries_layout }}">
+          {% for post in project.last %}
+            {% include archive-single.html type=entries_layout %}
+          {% endfor %}
+        </div>
+        <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+      </section>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
