@@ -1,7 +1,8 @@
 ---
 layout: single
 title:  "[Java] 인덱스에서 누락된 IN 또는 OUT 매개변수 오류"
-categories: Java-1차ProjectError
+# categories: Java-1차ProjectError
+Projects: Java-1차ProjectError
 toc: true
 ---
 

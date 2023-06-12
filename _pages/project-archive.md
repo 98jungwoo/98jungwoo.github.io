@@ -1,7 +1,7 @@
 ---
 title: "Project"
-layout: projects
 permalink: /projects/
+layout: projects
 author_profile: true
 ---
 
