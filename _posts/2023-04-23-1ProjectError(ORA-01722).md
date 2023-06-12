@@ -2,6 +2,7 @@
 layout: single
 title:  "[Java] ORA-01722 오류"
 categories: Java-1차ProjectError
+projects: Java-1차ProjectError
 toc: true
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: single
 title:  "[Java] 1차 프로젝트(회원가입)"
-# categories: Java-1차Project
-Project: Java-1차Project
+categories: Java-1차Project
+projects: Java-1차Project
 toc: true
 ---
 

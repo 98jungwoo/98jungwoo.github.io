@@ -1,8 +1,8 @@
 ---
 layout: single
 title:  "[Java] log로 값을 확인했을때 null발생 오류"
-# categories: Java-1차ProjectError
-Projects: Java-1차ProjectError
+categories: Java-1차ProjectError
+projects: Java-1차ProjectError
 toc: true
 ---
 
