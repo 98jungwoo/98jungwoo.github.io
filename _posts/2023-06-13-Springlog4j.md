@@ -95,7 +95,7 @@ or 변경해주면 되는거임 근데 지금은 안써서 신경 안써도 됨
 <br>
 
 ★★★★★★★★★★
-(https:/images/2023-06-13-Springlog4j/
+
 ![debug설정](https:/images/2023-06-13-Springlog4j.md/debug설정.png)
 
 여기 있는 벨류를  warn을 debug로 바꿔줘야함
