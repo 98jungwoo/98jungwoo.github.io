@@ -12,14 +12,12 @@ toc: true
 
 
 ## 2. git Bash Here를 열어주기 ##
-<br>
 
 ![gitBashHere](https:/images/2023-06-13-githubUpload.md/gitBashHere.png)
 <br><br>
 
 
 ## 3. 사용자이름, 사용자이메일 설정 ##
-<br>
 
 ```
 git config --global user.name "사용자 이름"
@@ -32,15 +30,13 @@ git config --global user.email "사용자 이메일“
 
 
 ## 4. 파일준비 ##
-<br>
 
 ```
 git init      #.git 파일 생성
 ```
-<br>
 
 ![로컬저장소생성](https:/images/2023-06-13-githubUpload.md/로컬저장소생성.png)
-<br>
+<br><br>
 
 
 ```
@@ -51,7 +47,7 @@ git add .     #선택한 프로젝트 폴더 내의 모든 파일 관리
 
 
 ![추가파일등록](https:/images/2023-06-13-githubUpload.md/추가파일등록.png)
-<br>
+<br><br>
 
 
 ```
@@ -63,7 +59,6 @@ git commit -m "주석"     #커밋
 
 
 ## 5. 업로드 ##
-<br>
 
 ```
 git remote add origin [새로만든 리포지토리 주소]
@@ -79,7 +74,6 @@ git push -u origin main       # 내가사용하는건 main이라서. master사�
 
 
 ## 참고한 홈페이지 ##
-<br>
 
 [Tool/GitHub-깃허브에 프로젝트 올리기](https://soda-dev.tistory.com/12) 
 <br>
@@ -88,7 +82,7 @@ git push -u origin main       # 내가사용하는건 main이라서. master사�
 <br><br>
 
 
-## contributions 기록성공 ##
+## ★contributions 기록성공★ ##
 <br>
 
 ![contributions기록](https:/images/2023-06-13-githubUpload.md/contributions기록.png)
