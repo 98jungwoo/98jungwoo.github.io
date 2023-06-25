@@ -55,7 +55,7 @@ public class MarkerAnnoCall {
 	}
 }
 ```
-
+<br><br><br>
 
 # 싱글값 어노테이션 #
 
@@ -83,14 +83,14 @@ public @interface SingleOption {
 	public String call();
 }
 ```
--------------------------------------
+
 ```xml
 Bean.xml	
 
 	<!-- SingleOption -->
 	<bean class="min.spring.custom.SingleOptionCall" id="singleOptionCall"></bean>	
 ```
--------------------------------------
+
 ```java
 
 import org.slf4j.Logger;
