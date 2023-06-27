@@ -15,16 +15,16 @@ toc: true
 스프링에서 의존성 주입을 자동화하며 의존성 주입을 처리하는데 사용된다.
 
 
-![의존관계자동다이어그램](/의존관계자동다이어그램.png)
+![의존관계자동다이어그램](https:/images/2023-06-27-@Autowired.md/의존관계자동다이어그램.png)
 
 스프링 컨테이너에 존재하는 빈 중에서 타입이 일치하는 빈을 자동으로 주입한다.
 생성자, setter 메서드, 필드에서 주로사용된다.
 <br>
 
-![DI프레임워크표1](/DI프레임워크표1.png)
+![DI프레임워크표1](https:/images/2023-06-27-@Autowired.md/DI프레임워크표1.png)
 
 
-![DI프레임워크표2](/DI프레임워크표2.png)
+![DI프레임워크표2](https:/images/2023-06-27-@Autowired.md/DI프레임워크표2.png)
 <br><br>
 
 
@@ -133,4 +133,4 @@ public class AutowiredMethodCall {
 
 
 
-![의존관계자동실습결과](https:/images/2023-06-26-@Autowired.md/의존관계자동실습결과.png)
+![의존관계자동실습결과](https:/images/2023-06-27-@Autowired.md/의존관계자동실습결과.png)
