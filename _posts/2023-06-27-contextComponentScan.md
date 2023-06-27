@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[Spring] <context:component-scan>태그 "
+title:  "[Spring] context:component-scan 태그 "
 categories: Spring
 toc: true
 ---
