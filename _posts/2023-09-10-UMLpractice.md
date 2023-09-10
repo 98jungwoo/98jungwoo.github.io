@@ -44,7 +44,7 @@ toc: true
 
 ```
 - 업무설명: 
-- 자동차 리콜센터(사이트)에서 rhrorr이 BMW 차량을 신고한 데이터를 추출하여 신고내멱을 관리하는 업무
+  자동차 리콜센터(사이트)에서 rhrorr이 BMW 차량을 신고한 데이터를 추출하여 신고내멱을 관리하는 업무
 	- BMW에 관한 신고내역 추출
 	- Uipath가 사용하는 CR에 추출한 정보를 Quee데이터 업데이트-(Dispatcher)_영역만 개발
 	※ Performer: Dispatcher가 완료되면 performerBot이 실행되어 신고내역 엑셀 정재 프로세스가 수행됨
