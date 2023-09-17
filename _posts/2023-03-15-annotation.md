@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "[Java] 어노테이션의 개념(XML, 리플랙션)"
-categories: Java-객체지향
+categories: Java
 toc: true
 ---
 

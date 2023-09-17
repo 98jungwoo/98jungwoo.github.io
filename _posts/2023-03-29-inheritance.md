@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "[Java] 상속(Inheritance)"
-categories: Java-객체지향
+categories: Java
 toc: true
 ---
 <br/><br/>

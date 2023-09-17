@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "[Java] Interface(인터페이스)의 개념정리"
-categories: Java-객체지향
+categories: Java
 toc: true
 ---
 

@@ -1,8 +1,7 @@
 ---
 layout: single
 title:  "[Java] Error preloading the connection pool"
-categories: Java-1차ProjectError
-projects: Java-1차ProjectError
+categories: Java
 toc: true
 ---
 

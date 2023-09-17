@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "[Java] 회원가입 개발 1(MVC)"
-categories: Java-개발
+categories: Java
 toc: true
 ---
 <br/><br/>

@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "[Java] MVC모델"
-categories: Java-개발
+categories: Java
 toc: true
 ---
 

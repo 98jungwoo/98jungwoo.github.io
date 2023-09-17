@@ -1,8 +1,7 @@
 ---
 layout: single
 title:  "[Java] 테이블연동관련하여 수정안되는 오류"
-categories: Java-1차ProjectError
-projects: Java-1차ProjectError
+categories: Java
 toc: true
 ---
 

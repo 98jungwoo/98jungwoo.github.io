@@ -1,8 +1,7 @@
 ---
 layout: single
 title:  "[Java] select에서 조회안되는 오류"
-categories: Java-1차ProjectError
-projects: Java-1차ProjectError
+categories: Java
 toc: true
 ---
 

@@ -1,8 +1,7 @@
 ---
 layout: single
 title:  "[Java] 부적합한 열 이름"
-categories: Java-1차ProjectError
-projects: Java-1차ProjectError
+categories: Java
 toc: true
 ---
 

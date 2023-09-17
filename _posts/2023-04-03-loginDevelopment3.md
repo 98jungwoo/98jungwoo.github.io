@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "[Java] 로그인, 종합페이지 개발 3(MVC)"
-categories: Java-개발
+categories: Java
 toc: true
 ---
 
