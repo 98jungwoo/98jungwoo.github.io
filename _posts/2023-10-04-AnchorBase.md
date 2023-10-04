@@ -18,10 +18,10 @@ ui는 변경되더라고 F12를 눌러서 보면 html의 속성을 확인하여 
 
 ### 화면
 
-*** 화면1 *** <br>
+***화면1*** <br>
 ![화면1](https:/images/2023-10-04-AnchorBase.md/화면1.png) <br>
 
-*** 화면2 *** <br>
+***화면2*** <br>
 ![화면2](https:/images/2023-10-04-AnchorBase.md/화면2.png) <br>
 
 *** 엑셀 파일 *** <br>
@@ -30,9 +30,10 @@ ui는 변경되더라고 F12를 눌러서 보면 html의 속성을 확인하여 
 ### 프로세스 흐름
 
 ![프로세스흐름](https:/images/2023-10-04-AnchorBase.md/프로세스흐름.png)
+
 ![GetWorkbookSheet](https:/images/2023-10-04-AnchorBase.md/GetWorkbookSheet.png)
 
-*** Get Workbook Sheet ***
+***Get Workbook Sheet***
 
 시트이름을 인덱스로 가져와서 변수에 담아주는 역할
 사용하는 이유는 시트이름이 변경 될 수 있는 경우가 있기 때문에 사용하는 것이 좋음
@@ -40,13 +41,13 @@ ui는 변경되더라고 F12를 눌러서 보면 html의 속성을 확인하여 
 	* Sheet : 내가 인덱스로 가져온 시트명을 strChalleng에 저장한다.
 <br>
 
-*** Read Range ***
+***Read Range***
 해당하는 시트의 내용을 dtChallenge에 저장한다.
 <br>
 
 ![ForEachRowInDataTable](https:/images/2023-10-04-AnchorBase.md/ForEachRowInDataTable.png)
 
-*** For Each Row In Data Table ***
+***For Each Row In Data Table***
 
 엑셀의 내용을 저장한 dtChallenge 내용 요소하나하나 반복하기 위해서 For Each Row in Data Table를 사용한다.
 <br>
