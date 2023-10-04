@@ -1,0 +1,119 @@
+---
+layout: single
+title:  "[RPA] Flowchart, Switch"
+categories: UiPath
+toc: true
+---
+
+# Flowchart<br>
+순서도, 여러방법으로 연결 가능, 다양한 활동으로 구성가능, 보잡한 비지니스 프로세스를 만들 수 있음.
+
+시퀀스를 연결한 형태로 구성도 가능.
+
+If sequence를 사용할 수 있고, If문 안에는 then, else에 무조건 넣어주어야 한다.
+
+## 관련 엑티브티 
+
+### Path Exist (패스 이그지스트)/(엘리먼트이그지스트와 비슷한엑티브티) <br>
+
+폴더의 존제유무 폴더의 존재유무를 체크하는 차원
+폴더가 있는지 확인하고, 블리언타입으로 반환한다.
+<br><br>
+
+
+### 엑셀파일이 있는 풀경로를 변수에 넣고 그 변수를 사용해서 간단하게 사용한다.(절대경로가 아닌 상대경로)<br>
+<br><br>
+
+### 플로우 디시전<br>
+- 참일 경우트루 실행, 거빗일 경우 펄스 실행
+- 플로우차트에서만 사용가능
+<br><br>
+
+### if <br>
+- 참일 경우 then 실행 , 거짓일 경우 else실행
+- 시퀀스, 플로우차트에서 모두 사용 가능
+<br><br>
+
+### switch <br>
+스트링타입이더라도 스위치케이스에서사용할때는 “”를 사용한다.
+스위치에서 케이스의 값은 변수사용이 불가능한다.
+- 조건에 따라 실행할 경로가 여러 개인 경우 사용
+- 시퀀스, 플로우차트에서 모두 사용가능
+<br><br>
+
+### flow switch <br>
+(프롤우차트에서만 쓴다.)
+- 조건에 따라 실행할 경로가 여러개인 경우 사용 
+- 플로우 차트에서만 사용 가능
+<br><br>
+
+
+## Flowchart 오류 <br>
+Expreseion must be set before the FlowSwitch in Flowchart “국적_Flowchart”can be used <br>
+
+### 원인
+
+![원인](https:/images/2023-10-04-Flowchart.md/원인.png) <br>
+ 이오류는 플로우 스위치에서 내가 인풋다이어오그에서 받은 값을 플로우스위치에서 받은 값을 받아올 변수를 작성하지 않아서 생기는 오류였음 <br>
+
+### 해결
+
+![해결](https:/images/2023-10-04-Flowchart.md/해결.png) <br>
+위에 다이어로그에서 내가 값을 담을 변수 지정해준걸 플로우스위치에 지정해줘야 값을 확인할수 있음
+<br><br>
+
+# Switch <br>
+스위치는 특정 표현식의 값을 기반으로 하는 여러개의 statement를 실행하는 제어흐름문 유형임.
+
+최한 3가지 이상의 잠재적인 action이 필요할 때 if문에 대신에 사용됩니다.
+<br><br>
+
+## Switch과제
+
+![Switch과제](https:/images/2023-10-04-Flowchart.md/Switch과제.png) <br>
+### 결과값
+
+![결과값](https:/images/2023-10-04-Flowchart.md/결과값.png) <br>
+
+### 전체동작
+
+
+![그림](https:/images/2023-10-04-Flowchart.md/그림.png) <br>
+
+
+
+
+![전체동작](https:/images/2023-10-04-Flowchart.md/전체동작.png)
+
+#### OpenBrowser
+
+![OpenBrowser](https:/images/2023-10-04-Flowchart.md/OpenBrowser.png)
+
+오픈브라우저의 변수를 생성해주었으며 어태치 브라우저와 동일하게 사용해준다.
+
+[OpenBrowser화면](https://www.rpasamples.com/suppliers)
+
+![OpenBrowser화면](https:/images/2023-10-04-Flowchart.md/OpenBrowser화면.png)
+
+#### AttachBrowser
+
+![AttachBrowser](https:/images/2023-10-04-Flowchart.md/AttachBrowser.png)
+스크래핑한 값을 dtSectors에 저장해준다.
+
+openBrowser변수를 사용한다.(openBrowser 액티비티에서 사용했던 것과같은것이라는 의미로  output에 써준다.
+
+
+
+
+Assign
+
+![Assign](https:/images/2023-10-04-Flowchart.md/Assign.png)
+
+#### For Each Row in Data Table /Switch
+
+![ForEachRowinDataTable](https:/images/2023-10-04-Flowchart.md/ForEachRowinDataTable.png)
+
+
+dtSectors의 값이 앞에서 표의 내용을 추출한 값이기 때문에 for each row in data table을 이용해서 반복해준다.
+
+
